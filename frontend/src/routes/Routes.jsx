@@ -23,18 +23,19 @@ const Routes = [
         path: "/add",
         element: <Add />,
       },
-      {
-        path: "*",
-        element: <NotFound />,
-      },
+     
       {
         path: "/favorites",
         element: <Favorites />,
       },
       {
-        path: "/products/:id",
+        path: "/flowers/:id",
         element: <Details />,
-      }
+      },
+      {
+        path: "*",
+        element: <NotFound />,
+      },
     ],
   },
 ];
